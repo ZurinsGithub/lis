@@ -7,6 +7,7 @@
 1. 实现订单信息的生成、管理、修改、查询等功能；
 2. 实现用户端、商户端、后台三端订单数据的交互对接；
 3. 实现路线、运输方式、价格的后台管理功能；
+
 应用技术：
 1. 前端：vue框架（vue3、vuex4、vue-router、vite）、tailwindcss、ElementPlus
 2. 后端：SpringBoot
