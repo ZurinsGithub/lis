@@ -1,0 +1,50 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities{
+    .w-all{
+        width:100%;
+    }
+    .h-bar{
+        height: 10vh;
+    }
+    .h-all{
+        height: 90vh;
+    }
+} 
+
+@layer base {
+    .bgxb{
+        background: #F0FFFC;
+    }
+    .bgxlb{
+        background: #CFDEFF;
+    }
+    .bgxg{
+        background: #4a7a6e;
+    }
+    .bgxlg{
+        background: #F0FFFC;
+    }
+    .cxg {
+        color: #4a7a6e;
+    }
+    .cxb {
+        color: #002fa7;
+    }
+    .cxlb{
+        color: #CFDEFF;
+    }
+    .h-35screen{
+        height: 60vh;
+    }
+}
+
+h2{
+    @apply text-3xl;
+}
+
+h1{
+    @apply text-4xl font-bold;
+}
